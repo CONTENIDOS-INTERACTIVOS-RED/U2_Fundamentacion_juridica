@@ -1,85 +1,125 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'FUNDAMENTACIÓN JURÍDICA - unidad 1'" :subTitulo="'NOMBRE TEMA 3'")
+  BannerInterno.text-uppercase(:titulo="'Unidad 2: El Ordenamiento Jurídico Colombiano'" :subTitulo="'3. Los derechos fundamentales'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 Los derechos fundamentales representan garantías jurídicas esenciales para la dignidad humana y el desarrollo de cada persona en la sociedad. Reconocidos en la Constitución de 1991 y en tratados internacionales, estos derechos son inalienables, irrenunciables e imprescriptibles, protegiendo aspectos vitales de la vida humana. 
+        .bg-azul.p-4.mb-0
+          p.mb-0 Este principio asegura que las normas de menor rango respeten y se adapten a las de mayor jerarquía, promoviendo la coherencia y el orden en el sistema legal. La Constitución de 1991 ocupa el lugar supremo en Colombia y establece el marco que organiza el ordenamiento jurídico.
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
+
+    .row.mb-5.mx-0
+      .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
+        img.h-100(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4(data-aos="fade-left")
+        p.mb-0(data-aos="fade-up") En Colombia, el desarrollo y consolidación de los derechos fundamentales se refleja en la Constitución de 1991, que establece un amplio catálogo de derechos, además de mecanismos como la acción de tutela para su protección efectiva (Sentencia C-018 de 1993). La historia de estos derechos puede trazarse desde las revoluciones liberales y su establecimiento en las constituciones modernas, como la Declaración de los Derechos del Hombre y del Ciudadano en 1789.
+
+    p.mb-4 A continuación, se examina la naturaleza de los derechos fundamentales en Colombia, su papel crucial dentro del Estado social de derecho y los mecanismos que garantizan su vigencia, destacando su importancia en la protección de las libertades individuales y colectivas: 
+
+    .row.mb-5
+      .col-12.col-lg-7(data-aos="fade-right")
+        AcordionA(tipo="b")
+          .div(titulo="Naturaleza")
+            p Garantías jurídicas esenciales e inalienables que protegen la dignidad humana y aseguran el desarrollo pleno de la persona.
+          .div(titulo="Protección inmediata")
+            p Exigen una defensa rápida e inmediata, a diferencia de los derechos económicos y sociales, que requieren un esfuerzo gradual del Estado.
+          .div(titulo="Orígenes")
+            p Se remontan a la Declaración de los Derechos del Hombre y del Ciudadano de 1789 y se consolidaron en Colombia con la Constitución de 1991.
+          .div(titulo="Importancia")
+            p Son la base de un Estado democrático, ya que garantizan la dignidad y las libertades individuales y colectivas.
+          .div(titulo="Mecanismos de defensa")
+            p La Constitución de 1991 introdujo la acción de tutela, permitiendo una protección rápida y efectiva de los derechos fundamentales.
+      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
+
     #t_3_1.titulo-segundo
-      h2 3.1 Carrusel
-    .row.justify-content-center.mb-5
-      .col-11.col-md-4.col-xl-5.pe-xl-8
-        figure.mb-4.mb-md-0
-          img(src='@/assets/componentes/test-img-carousel.png', alt='Texto que describa la imagen')
-      .col-11.col-md-8.col-xl-7
-        SlyderF(columnas="col-12 col-lg-6")
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 8 de 1922
-                p.text-center Introdujo la separación de bienes.
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 54 de 1924
-                p.text-center Permitió el matrimonio civil entre católicos que declaran  haberse separado de la Iglesia.
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 8 de 1922
-                p.text-center Introdujo la separación de bienes.
+      div.d-flex
+        span.me-3 3.1  
+        h2 Concepto y clasificación 
+
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 Los derechos fundamentales son inherentes a todas las personas y están ligados a la protección de la dignidad, la libertad y la igualdad. Estos derechos, reconocidos en la Constitución Política de 1991, son esenciales para la existencia y el ejercicio de la libertad individual en la sociedad. En Colombia, el marco constitucional define al país como un Estado social de derecho, lo que implica no solo la garantía formal de estos derechos, sino también una responsabilidad activa del Estado para asegurar su ejercicio efectivo.
+        p.mb-0 Los derechos fundamentales se dividen en categorías específicas, cada una enfocada en proteger aspectos cruciales de la vida humana y de la convivencia social. Entre estos, destacan el derecho a la vida y la integridad personal, los derechos de libertad y de igualdad, así como los derechos sociales, económicos, culturales y políticos.
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-48.png', alt='Texto que describa la imagen')
+
+    .row.mb-5
+      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
+      .col-12.col-lg-7(data-aos="fade-left")
+        AcordionA(tipo="b")
+          .div(titulo="Derecho a la vida y la integridad personal")
+            p Es el derecho básico que permite el ejercicio de todos los demás derechos. Protegido en el artículo 11 de la Constitución, asegura a toda persona vivir con dignidad, prohibiendo la tortura y tratos crueles, inhumanos o degradantes.
+          .div(titulo="Derechos de libertad")
+            p Estos derechos abarcan la autonomía personal y la capacidad de tomar decisiones. Incluyen la libertad de conciencia, expresión y movimiento dentro del territorio nacional, garantizando que las personas puedan expresar sus ideas y trasladarse sin restricciones indebidas.
+          .div(titulo="Derechos de igualdad")
+            p Basados en el principio de igualdad ante la ley, según el artículo 13, estos derechos exigen que el Estado promueva condiciones para una igualdad real, prohibiendo discriminación por motivos como sexo, raza, origen, religión u opinión política.
+          .div(titulo="Derechos sociales, económicos y culturales")
+            p Aunque no siempre considerados estrictamente fundamentales, adquieren tal carácter cuando su vulneración compromete la dignidad humana. Incluyen el derecho a la salud, la educación y la seguridad social, vitales para una vida digna.
+          .div(titulo="Mecanismos de defensa")
+            p Estos derechos permiten a los ciudadanos participar en las decisiones políticas de su país, incluyendo el derecho al voto y a ser elegidos para cargos públicos. Son fundamentales para reforzar el carácter democrático del Estado colombiano.
 
     #t_3_2.titulo-segundo
-      h2 3.2 Tablas
+      div.d-flex
+        span.me-3 3.2  
+        h2 La importancia de los derechos fundamentales en un Estado social de derecho
 
-    .row
-      .col-xl-9
-        .tabla-a.mb-5
-          table
-            caption Leyenda de la tabla
-            thead
-              tr
-                th Ventajas
-                th Desafios
-            tbody
-              tr
-                td <strong>Flexibilidad de tiempo y lugar:</strong>Los estudiantes pueden acceder a los cursos desde cualquier lugar y en el momento que mejor se ajuste a su agenda.
-                td <strong>Autogestión   del tiempo:</strong>Requiere que los estudiantes sean disciplinados y tengan la capacidad de organizar su tiempo de manera efectiva.
-              tr
-                td <strong>Acceso global: </strong>Cualquier persona con conexión a internet puede acceder a una amplia gama de programas y cursos, sin importar su ubicación geográfica.
-                td <strong>Autogestión del tiempo: </strong>Falta de interacción cara a cara: La ausencia de contacto físico puede disminuir la sensación de comunidad y la interacción espontánea con compañeros e instructores.
-              tr
-                td <strong>Aprendizaje a ritmo propio: </strong>Los estudiantes pueden avanzar a su propio ritmo, revisando el material tantas veces como sea necesario.
-                td <strong>Requiere mayor motivación: </strong>La autonomía que ofrece el aprendizaje en línea también exige que los estudiantes mantengan su motivación sin la estructura tradicional de clases presenciales.
-              tr
-                td <strong>Variedad de recursos digitales: </strong>Los estudiantes tienen acceso a videos, documentos, foros, evaluaciones automatizadas y otros recursos interactivos que enriquecen la experiencia de aprendizaje.
-                td <strong></strong>Distracciones en el entorno personal: Al estudiar desde casa o en otros entornos no tradicionales, los estudiantes pueden enfrentarse a más distracciones que en un aula presencial.
-              tr
-                td <strong>Menor costo: </strong>El aprendizaje en línea suele ser más asequible, ya que elimina los costos de transporte, alojamiento y materiales impresos.
-                td <strong>Dependencia de la tecnología: </strong>Problemas técnicos, como una conexión a internet inestable o falta de acceso a dispositivos adecuados, pueden interrumpir el proceso de aprendizaje.
-    .row.material-complementario
-      h2 MATERIAL COMPLEMENTARIO
-      .col-12.col-md-6.col-lg-7
-        p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span De Sousa, M. T. (2019). Introducción al derecho. Temis 
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Nieto, A. (2019). Una introducción al derecho.
-      .col-12.col-md-6.col-lg-3.offset-lg-1
-        figure
-          img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 En Colombia, el Estado social de derecho implica que el Estado no solo garantiza formalmente los derechos fundamentales, sino que actúa activamente para hacerlos efectivos, especialmente para los sectores vulnerables. La Corte Constitucional ha sido clave en este proceso, ampliando el alcance de los derechos, como en el caso de la salud, protegido como derecho fundamental en la Sentencia T-760 de 2008. 
+        p.mb-0 La acción de tutela es el principal mecanismo de protección, permitiendo una defensa rápida ante vulneraciones de derechos fundamentales. Otros recursos, como la acción de inconstitucionalidad y las acciones populares, junto al rol de la Corte, aseguran una protección integral, promoviendo una sociedad más justa y equitativa. A continuación, se explican los principales aspectos de este modelo:
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-50.png', alt='Texto que describa la imagen')
+
+
+    .bg-fondo-2.bg-full-width.row
+      div.px-5.pb-md-3.py-4
+        .row.justify-content-center.mb-0
+          .col-11.col-md-4.col-xl-5.pe-xl-8.d-none.d-xl-block
+            figure.mb-4.mb-md-0
+              img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
+          .col-11.col-xl-7
+            SlyderF(columnas="col-12 col-lg-6")
+              .row.py-4.px-3.h-100
+                .col-10.col-md-12.box-shadow.p-3.py-md-5.px-md-4.bg-white
+                  .row.justify-content-center
+                    .col-5.col-md-4.mb-4
+                      img(src='@/assets/curso/unidad/img-52.svg' alt='AvatarTop')
+                    h3.text-center.mb-4 Estado Social <br>de Derecho
+                    p.text-center.text-small El Estado colombiano tiene la responsabilidad activa de hacer efectivos los derechos fundamentales, especialmente para los sectores más vulnerables.
+              .row.py-4.px-3.h-100
+                .col-10.col-md-12.box-shadow.p-3.py-md-5.px-md-4.bg-white
+                  .row.justify-content-center
+                    .col-5.col-md-4.mb-4
+                      img(src='@/assets/curso/unidad/img-53.svg' alt='AvatarTop')
+                    h3.text-center.mb-4 Papel de la Corte <br>Constitucional
+                    p.text-center.text-small La Corte interpreta y amplía el alcance de los derechos fundamentales, adaptándolos a los desafíos contemporáneos, como la protección del derecho a la salud.
+              .row.py-4.px-3.h-100
+                .col-10.col-md-12.box-shadow.p-3.py-md-5.px-md-4.bg-white
+                  .row.justify-content-center
+                    .col-5.col-md-4.mb-4
+                      img(src='@/assets/curso/unidad/img-54.svg' alt='AvatarTop')
+                    h3.text-center.mb-4 Acción de tutela
+                    p.text-center.text-small Recurso clave para la defensa expedita de derechos fundamentales, permite a cualquier persona solicitar protección inmediata ante amenazas o vulneraciones de sus derechos.
+              .row.py-4.px-3.h-100
+                .col-10.col-md-12.box-shadow.p-3.py-md-5.px-md-4.bg-white
+                  .row.justify-content-center
+                    .col-5.col-md-4.mb-4
+                      img(src='@/assets/curso/unidad/img-55.svg' alt='AvatarTop')
+                    h3.text-center.mb-4 Otros mecanismos de protección
+                    p.text-center.text-small Incluyen la acción de inconstitucionalidad y las acciones populares, que protegen los derechos individuales y colectivos, asegurando el respeto al marco constitucional.
+              .row.py-4.px-3.h-100
+                .col-10.col-md-12.box-shadow.p-3.py-md-5.px-md-4.bg-white
+                  .row.justify-content-center
+                    .col-5.col-md-4.mb-4
+                      img(src='@/assets/curso/unidad/img-56.svg' alt='AvatarTop')
+                    h3.text-center.mb-4 Compromiso Estatal
+                    p.text-center.text-small La promoción y protección de los derechos fundamentales es tanto una obligación jurídica como un imperativo moral para construir una sociedad equitativa y justa en Colombia.
+
 </template>
 
 <script>

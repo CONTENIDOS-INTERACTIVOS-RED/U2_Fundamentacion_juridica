@@ -29,44 +29,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Constitución ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo: 'Historia de la Constitución de 1991',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Acordeón',
+            titulo: 'Principios Fundamentales de la Constitución',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Slider',
+            titulo: 'Derechos y deberes constitucionales',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Pestañas',
+            titulo: 'Mecanismos de protección de la Constitución',
             hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
           },
         ],
       },
@@ -74,38 +62,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Sistema jurídico colombiano',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Leyes estatutarias, leyes orgánicas y leyes ordinarias',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
+            titulo: 'Decretos ',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Audios',
+            titulo: 'Normatividad en el plano local',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
           },
         ],
       },
@@ -113,19 +89,20 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo: 'Los derechos fundamentales',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Carrusel',
+            titulo: 'Concepto y clasificación ',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Tablas',
+            titulo:
+              'La importancia de los derechos fundamentales en un Estado social de derecho',
             hash: 't_3_2',
           },
         ],
@@ -156,7 +133,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
+        download: 'downloads/Fundamentacion_Juridica_U2.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -173,109 +150,139 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Alexy, R., & Pulido, C. B. (2007). Teoría de los derechos fundamentales.',
+      link: '',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Atienza, M. (2013). Curso de argumentación jurídica. Editorial Trotta, S.A.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/61319',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Carrasco Perera, Á. & González Carrasco, M. D. C. (2018). Introducción al Derecho y fundamentos de Derecho privado (2 ed.). Difusora Larousse - Editorial Tecnos.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/123141',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Carretero Sanchez, S. (2015). Nueva introducción a la teoría del derecho. Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/60943',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Dussan, C., Escobar, A., Kahn, G., & Núñez, L. (2002). El constitucionalismo medieval y su impacto en las modernas concepciones de derechos. Editorial Jurídica.',
+      link: '',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Ferrajoli, L. (2011). Principia iuris: Teoría del derecho y de la democracia. La sintaxis del derecho. Trotta.',
+      link: '',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'González Jácome, J. (2009). El problema de las fuentes del derecho: una perspectiva desde la argumentación jurídica. Red Vniversitas.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/32739',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'González Madrid, M. (2018). El significado de la Constitución: Breve revisión del concepto y de su relevancia a la luz del principialismo y el garantismo. Polis, 14(1), 43-80.',
+      link: '',
+    },
+    {
+      referencia:
+        'Guastini, R. (1999). Sobre el concepto de Constitución. Cuestiones Constitucionales, 1, 161-176.',
+      link: '',
+    },
+    {
+      referencia:
+        'Hernandez Quintero, H. A. Gómez Peña, G. E. & María Cristina Solano de Ojeda. (2016). Lecciones de introducción al derecho. Universidad de Ibagué.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/70168',
+    },
+    {
+      referencia: 'Loewenstein, K. (1979). Teoría de la Constitución. Ariel.',
+      link: '',
+    },
+    {
+      referencia:
+        'Lorca Martín de Villodres, M. I. (2017). El concepto de derecho de un siglo: su perspectiva iusfilosófica. Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/58832',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Acción de tutela',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Mecanismo judicial en Colombia que permite a los ciudadanos proteger de forma inmediata sus derechos fundamentales cuando estos son vulnerados',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Bloque de constitucionalidad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de normas y tratados internacionales de derechos humanos que, al ser ratificados por Colombia, se integran en el sistema jurídico con el mismo valor que la Constitución',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Constitución',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Norma suprema del Estado que establece los derechos fundamentales, la estructura del Estado y los principios rectores de la sociedad',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Control constitucional',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Proceso mediante el cual la corte constitucional asegura que las leyes y actos administrativos estén en conformidad con la constitución',
     },
     {
-      termino: 'Moda',
+      termino: 'Decreto',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Norma expedida por el Presidente de la República que desarrolla o reglamenta aspectos específicos de la ley',
     },
     {
-      termino: 'Diseña',
+      termino: 'Derecho',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Sistema de normas jurídicas que regula la conducta humana en sociedad y garantiza la convivencia pacífica y el respeto a los derechos',
     },
     {
-      termino: 'DIseño',
+      termino: 'Derechos fundamentales',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Derechos inherentes a la dignidad humana, protegidos por la Constitución y necesarios para el desarrollo integral de las personas',
     },
     {
-      termino: 'Tipología',
+      termino: 'Doctrina',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Conjunto de estudios y opiniones de juristas sobre la interpretación de las normas, que influye en la práctica judicial y legislativa aunque no sea vinculante',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Estado Social de Derecho',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Modelo de Estado que busca garantizar justicia social, derechos humanos y equidad en la sociedad, cumpliendo con los principios de legalidad y derechos fundamentales',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Interpretación jurídica',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Proceso mediante el cual se determina el sentido y alcance de las normas jurídicas para su correcta aplicación',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Jerarquía normativa',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Orden de prevalencia entre normas jurídicas que establece qué normas tienen mayor autoridad en el sistema legal',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Jurisprudencia',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de decisiones y criterios establecidos por los tribunales, especialmente las altas cortes, que orientan la interpretación y aplicación de las leyes',
+    },
+    {
+      termino: 'Ley estatutaria',
+      significado:
+        'Ley especial que regula materias relacionadas con derechos fundamentales y participación ciudadana, sometida a un proceso de aprobación y control constitucional más riguroso',
+    },
+    {
+      termino: 'Precedente judicial',
+      significado:
+        'Decisiones previas de los tribunales que sirven como referencia para resolver casos futuros de manera consistente',
+    },
+    {
+      termino: 'Soberanía popular',
+      significado:
+        'Principio constitucional que establece que el poder del Estado emana del pueblo, quien lo ejerce mediante mecanismos de participación democrática',
     },
   ],
   complementario: [

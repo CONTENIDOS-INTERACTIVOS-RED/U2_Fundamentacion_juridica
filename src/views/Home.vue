@@ -20,11 +20,11 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title.text-uppercase Desarrollo Físico y Motor en Niños y Adolescentes
-              h1.home-title.mb-4.text-uppercase Desarrollo y Ciclo Vital: Niños y Adolescentes
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
+              p.home-main-title.text-uppercase FUNDAMENTACIÓN JURÍDICA
+              h1.home-title.mb-4.text-uppercase El Ordenamiento Jurídico Colombiano
+              p.descripcion.mb-4 Esta unidad explora el ordenamiento jurídico colombiano, centrado en la Constitución Política de 1991 como norma suprema. Se abordan su estructura, jerarquía normativa y derechos fundamentales. Este conocimiento resulta esencial para interpretar y aplicar el Derecho en la práctica, permitiendo a los estudiantes comprender la importancia de la Constitución en la organización del Estado y en la garantía de derechos. Además, proporciona herramientas para la defensa de derechos y la resolución de conflictos normativos en el ejercicio profesional del derecho.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold El derecho convierte la justicia en realidad. Que la pasión por aprenderlo inspire a construir una sociedad más justa.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'tema1' }")
@@ -141,11 +141,12 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
-    color: #0B0A0A !important
+    background-color: #1172B3 !important
+    color: #fff !important
   .icon
     transition: all 0.25s ease-in-out
     background-color: #083E61 !important
+    color: #fff !important
   &:hover
     .icon
       transform: scale(1.06)
