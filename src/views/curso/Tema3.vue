@@ -7,7 +7,7 @@
       .col-12.col-xl-7(data-aos="fade-right")
         p.mb-4 Los derechos fundamentales representan garantías jurídicas esenciales para la dignidad humana y el desarrollo de cada persona en la sociedad. Reconocidos en la Constitución de 1991 y en tratados internacionales, estos derechos son inalienables, irrenunciables e imprescriptibles, protegiendo aspectos vitales de la vida humana. 
         .bg-azul.p-4.mb-0
-          p.mb-0 Este principio asegura que las normas de menor rango respeten y se adapten a las de mayor jerarquía, promoviendo la coherencia y el orden en el sistema legal. La Constitución de 1991 ocupa el lugar supremo en Colombia y establece el marco que organiza el ordenamiento jurídico.
+          p.mb-0 Ferrajoli (1999) define los derechos fundamentales como aquellos "universalmente reconocidos y jurídicamente garantizados" que resguardan los bienes más esenciales de los individuos. A diferencia de otros derechos como los económicos y sociales, que demandan un esfuerzo progresivo del Estado, los derechos fundamentales deben ser asegurados de forma inmediata debido a su directa implicación en la dignidad humana.
       .col-5.d-none.d-xl-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
 
@@ -60,7 +60,7 @@
             p Basados en el principio de igualdad ante la ley, según el artículo 13, estos derechos exigen que el Estado promueva condiciones para una igualdad real, prohibiendo discriminación por motivos como sexo, raza, origen, religión u opinión política.
           .div(titulo="Derechos sociales, económicos y culturales")
             p Aunque no siempre considerados estrictamente fundamentales, adquieren tal carácter cuando su vulneración compromete la dignidad humana. Incluyen el derecho a la salud, la educación y la seguridad social, vitales para una vida digna.
-          .div(titulo="Mecanismos de defensa")
+          .div(titulo="Derechos políticos")
             p Estos derechos permiten a los ciudadanos participar en las decisiones políticas de su país, incluyendo el derecho al voto y a ser elegidos para cargos públicos. Son fundamentales para reforzar el carácter democrático del Estado colombiano.
 
     #t_3_2.titulo-segundo
@@ -76,7 +76,7 @@
         img(src='@/assets/curso/unidad/img-50.png', alt='Texto que describa la imagen')
 
 
-    .bg-fondo-2.bg-full-width.row
+    .bg-fondo-2.bg-full-width.row.mb-5
       div.px-5.pb-md-3.py-4
         .row.justify-content-center.mb-0
           .col-11.col-md-4.col-xl-5.pe-xl-8.d-none.d-xl-block
@@ -119,6 +119,31 @@
                       img(src='@/assets/curso/unidad/img-56.svg' alt='AvatarTop')
                     h3.text-center.mb-4 Compromiso Estatal
                     p.text-center.text-small La promoción y protección de los derechos fundamentales es tanto una obligación jurídica como un imperativo moral para construir una sociedad equitativa y justa en Colombia.
+              .row.py-4.px-3.h-100
+                .col-10.col-md-12.box-shadow.p-3.py-md-5.px-md-4.bg-white
+                  .row.justify-content-center
+                    .col-5.col-md-4.mb-4
+                      img(src='@/assets/curso/unidad/img-53.svg' alt='AvatarTop')
+                    h3.text-center.mb-4 Compromiso Estatal
+                    p.text-center.text-small La promoción y protección de los derechos fundamentales es tanto una obligación jurídica como un imperativo moral para construir una sociedad equitativa y justa en Colombia.
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/96855") Muller, F. (2016). La positividad de los derechos fundamentales. Dykinson Constitucional.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/113359") Molinares V. (2019). Seguridad humana y derechos fundamentales. Universidad del Norte.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/114292") Pére. L.A. (2013). Los derechos fundamentales. Difusora Larousse.
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

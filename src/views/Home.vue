@@ -20,8 +20,8 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title.text-uppercase FUNDAMENTACIÓN JURÍDICA
-              h1.home-title.mb-4.text-uppercase El Ordenamiento Jurídico Colombiano
+              p.home-main-title.text-uppercase Unidad 2
+              h1.home-title.mb-4 El Ordenamiento Jurídico Colombiano
               p.descripcion.mb-4 Esta unidad explora el ordenamiento jurídico colombiano, centrado en la Constitución Política de 1991 como norma suprema. Se abordan su estructura, jerarquía normativa y derechos fundamentales. Este conocimiento resulta esencial para interpretar y aplicar el Derecho en la práctica, permitiendo a los estudiantes comprender la importancia de la Constitución en la organización del Estado y en la garantía de derechos. Además, proporciona herramientas para la defensa de derechos y la resolución de conflictos normativos en el ejercicio profesional del derecho.
 
               p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold El derecho convierte la justicia en realidad. Que la pasión por aprenderlo inspire a construir una sociedad más justa.

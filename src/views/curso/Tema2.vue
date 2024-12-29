@@ -63,6 +63,8 @@
             figure
               img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
 
+    p.mb-5 Esta clasificación jerárquica asegura que los temas de mayor trascendencia constitucional cuenten con una protección y aprobación más rigurosa, lo que fortalece el ordenamiento jurídico colombiano.
+
     #t_2_2.titulo-segundo
       div.d-flex
         span.me-3 2.2  
@@ -131,7 +133,7 @@
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-43.svg', alt='Texto que describa la imagen')
           p.pe-xl-5.mb-0 La jerarquía normativa en Colombia garantiza la coherencia y la supremacía constitucional. La Constitución es la norma suprema, seguida por los tratados internacionales que forman parte del bloque de constitucionalidad, luego las leyes, decretos y actos administrativos. Este orden asegura que todas las normas respeten los principios constitucionales y protejan los derechos fundamentales, garantizando la estabilidad y previsibilidad del sistema jurídico.
 
-    .row.bg-amarillo-1.bg-full-width.py-4
+    .row.bg-amarillo-1.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
           img.h-100(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
@@ -141,6 +143,24 @@
           a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Bloque de constitucionalidad y actos administrativos en el sistema jurídico colombiano.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Bloque de constitucionalidad y actos administrativos en el sistema jurídico colombiano
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/69563") Cortes N.J. (2009). Itinerario de la jurisprudencia colombiana de control constitucional. Editorial Universidad del Rosario.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/5631") Naranjo, M.F. Premoniciones y realidades sobre la paz. Universidad de la sabana.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/70116") Rodriguez. C (2018). El principio de proporcionalidad por el legislador. Editorial Unimagdalena.
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 
 </template>

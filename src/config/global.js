@@ -107,14 +107,20 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        unidad: '',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividadDidactica',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -131,19 +137,9 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Fundamentacion_Juridica_U2.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
@@ -212,77 +208,77 @@ export default {
     {
       termino: 'Acción de tutela',
       significado:
-        'Mecanismo judicial en Colombia que permite a los ciudadanos proteger de forma inmediata sus derechos fundamentales cuando estos son vulnerados',
+        'Mecanismo judicial en Colombia que permite a los ciudadanos proteger de forma inmediata sus derechos fundamentales cuando estos son vulnerados.',
     },
     {
       termino: 'Bloque de constitucionalidad',
       significado:
-        'Conjunto de normas y tratados internacionales de derechos humanos que, al ser ratificados por Colombia, se integran en el sistema jurídico con el mismo valor que la Constitución',
+        'Conjunto de normas y tratados internacionales de derechos humanos que, al ser ratificados por Colombia, se integran en el sistema jurídico con el mismo valor que la Constitución.',
     },
     {
       termino: 'Constitución',
       significado:
-        'Norma suprema del Estado que establece los derechos fundamentales, la estructura del Estado y los principios rectores de la sociedad',
+        'Norma suprema del Estado que establece los derechos fundamentales, la estructura del Estado y los principios rectores de la sociedad.',
     },
     {
       termino: 'Control constitucional',
       significado:
-        'Proceso mediante el cual la corte constitucional asegura que las leyes y actos administrativos estén en conformidad con la constitución',
+        'Proceso mediante el cual la corte constitucional asegura que las leyes y actos administrativos estén en conformidad con la constitución.',
     },
     {
       termino: 'Decreto',
       significado:
-        'Norma expedida por el Presidente de la República que desarrolla o reglamenta aspectos específicos de la ley',
+        'Norma expedida por el Presidente de la República que desarrolla o reglamenta aspectos específicos de la ley.',
     },
     {
       termino: 'Derecho',
       significado:
-        'Sistema de normas jurídicas que regula la conducta humana en sociedad y garantiza la convivencia pacífica y el respeto a los derechos',
+        'Sistema de normas jurídicas que regula la conducta humana en sociedad y garantiza la convivencia pacífica y el respeto a los derechos.',
     },
     {
       termino: 'Derechos fundamentales',
       significado:
-        'Derechos inherentes a la dignidad humana, protegidos por la Constitución y necesarios para el desarrollo integral de las personas',
+        'Derechos inherentes a la dignidad humana, protegidos por la Constitución y necesarios para el desarrollo integral de las personas.',
     },
     {
       termino: 'Doctrina',
       significado:
-        'Conjunto de estudios y opiniones de juristas sobre la interpretación de las normas, que influye en la práctica judicial y legislativa aunque no sea vinculante',
+        'Conjunto de estudios y opiniones de juristas sobre la interpretación de las normas, que influye en la práctica judicial y legislativa aunque no sea vinculante.',
     },
     {
       termino: 'Estado Social de Derecho',
       significado:
-        'Modelo de Estado que busca garantizar justicia social, derechos humanos y equidad en la sociedad, cumpliendo con los principios de legalidad y derechos fundamentales',
+        'Modelo de Estado que busca garantizar justicia social, derechos humanos y equidad en la sociedad, cumpliendo con los principios de legalidad y derechos fundamentales.',
     },
     {
       termino: 'Interpretación jurídica',
       significado:
-        'Proceso mediante el cual se determina el sentido y alcance de las normas jurídicas para su correcta aplicación',
+        'Proceso mediante el cual se determina el sentido y alcance de las normas jurídicas para su correcta aplicación.',
     },
     {
       termino: 'Jerarquía normativa',
       significado:
-        'Orden de prevalencia entre normas jurídicas que establece qué normas tienen mayor autoridad en el sistema legal',
+        'Orden de prevalencia entre normas jurídicas que establece qué normas tienen mayor autoridad en el sistema legal.',
     },
     {
       termino: 'Jurisprudencia',
       significado:
-        'Conjunto de decisiones y criterios establecidos por los tribunales, especialmente las altas cortes, que orientan la interpretación y aplicación de las leyes',
+        'Conjunto de decisiones y criterios establecidos por los tribunales, especialmente las altas cortes, que orientan la interpretación y aplicación de las leyes.',
     },
     {
       termino: 'Ley estatutaria',
       significado:
-        'Ley especial que regula materias relacionadas con derechos fundamentales y participación ciudadana, sometida a un proceso de aprobación y control constitucional más riguroso',
+        'Ley especial que regula materias relacionadas con derechos fundamentales y participación ciudadana, sometida a un proceso de aprobación y control constitucional más riguroso.',
     },
     {
       termino: 'Precedente judicial',
       significado:
-        'Decisiones previas de los tribunales que sirven como referencia para resolver casos futuros de manera consistente',
+        'Decisiones previas de los tribunales que sirven como referencia para resolver casos futuros de manera consistente.',
     },
     {
       termino: 'Soberanía popular',
       significado:
-        'Principio constitucional que establece que el poder del Estado emana del pueblo, quien lo ejerce mediante mecanismos de participación democrática',
+        'Principio constitucional que establece que el poder del Estado emana del pueblo, quien lo ejerce mediante mecanismos de participación democrática.',
     },
   ],
   complementario: [

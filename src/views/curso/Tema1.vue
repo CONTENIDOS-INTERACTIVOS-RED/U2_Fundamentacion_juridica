@@ -13,7 +13,7 @@
       div.px-4.px-md-5.py-md-3
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            <iframe width="1903" height="748" src="https://www.youtube.com/embed/yAB2JU15GAc" title="La constitución" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     p.mb-4 Riccardo Guastini (1999), en su obra Sobre el concepto de Constitución, clasifica de manera precisa las distintas acepciones del término "constitución". Esta clasificación permite entender los múltiples enfoques que puede adoptar la idea de constitución, desde su función política hasta su rol como fuente del derecho. A continuación, se presenta una síntesis de estas acepciones:
     
@@ -25,7 +25,7 @@
           .div(titulo="Constitución como ordenamiento político de tipo liberal")
             p Representa una constitución que garantiza la libertad ciudadana a través de la división del poder político, estableciendo límites al poder estatal. Se inspira en el concepto liberal de constitución surgido con la Declaración de los Derechos del Hombre y del Ciudadano de 1789.
           .div(titulo="Constitución como conjunto de normas fundamentales")
-            p Considera la constitución como un conjunto de normas esenciales para la organización del Estado y la protección de los derechos de los ciudadanos, regulando las relaciones entre el Estado, los ciudadanos y los diferentes poderes del Estado
+            p Considera la constitución como un conjunto de normas esenciales para la organización del Estado y la protección de los derechos de los ciudadanos, regulando las relaciones entre el Estado, los ciudadanos y los diferentes poderes del Estado.
           .div(titulo="Constitución como documento normativo")
             p Define la constitución como un texto jurídico que expresa las normas fundamentales de un sistema jurídico, caracterizándose por un régimen jurídico especial y distinciones claras respecto de otras leyes.
           .div(titulo="Constitución como fuente del derecho")
@@ -52,7 +52,7 @@
           img.h-100(src='@/assets/curso/unidad/img-7.png', alt='Texto que describa la imagen')
         .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-left")
           h2.mb-4.pb-2.me-auto ¿Sabías que la Constitución de Colombia sostiene los derechos de los ciudadanos y la estructura del Estado?
-          p.mb-5 Lo invitamos a revisar el documento Estructura de la Constitución , para explorar en profundidad cómo esta carta magna, con sus principios fundamentales y su división de poderes, garantiza un sistema democrático, pluralista y justo. Al conocer su organización y sus disposiciones sobre derechos y deberes, podrá entender cómo la Constitución de 1991 busca equilibrar la centralización con la autonomía territorial, asegurando la participación activa de todos los colombianos en la construcción de una sociedad equitativa y solidaria.
+          p.mb-5 Lo invitamos a revisar el documento Estructura de la Constitución, para explorar en profundidad cómo esta carta magna, con sus principios fundamentales y su división de poderes, garantiza un sistema democrático, pluralista y justo. Al conocer su organización y sus disposiciones sobre derechos y deberes, podrá entender cómo la Constitución de 1991 busca equilibrar la centralización con la autonomía territorial, asegurando la participación activa de todos los colombianos en la construcción de una sociedad equitativa y solidaria.
           a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Estructura de la Constitución.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Estructura de la constitución
@@ -222,8 +222,8 @@
               p.text-bold Derechos Internacionales en el Bloque de Constitucionalidad
               p La Constitución incluye los tratados internacionales de derechos humanos ratificados por Colombia, que prevalecen sobre el derecho interno, fortaleciendo el marco de protección de los derechos constitucionales (art. 93).
 
-    h2 Derechos Constitucionales en Colombia
-    p.mb-4 En Colombia, la Constitución de 1991 establece deberes ciudadanos que son esenciales para la armonía social y la garantía de derechos colectivos. Aunque se tiende a enfatizar los derechos, los deberes constitucionales, recogidos en el artículo 95, son igualmente fundamentales para construir un Estado que fomente la convivencia, la paz y el bienestar común. Estos deberes reflejan la responsabilidad de cada ciudadano en contribuir al desarrollo de una sociedad equitativa y sostenible:
+    h2 Deberes Constitucionales en Colombia
+    p.mb-4 En Colombia, la Constitución de 1991 establece deberes ciudadanos que son esenciales para la armonía social y la garantía de derechos colectivos. Aunque se tiende a enfatizar los derechos, los deberes constitucionales, recogidos en el artículo 95, son igualmente fundamentales para construir un Estado que fomente la convivencia, la paz y el bienestar común. Estos deberes reflejan la responsabilidad de cada ciudadano en contribuir al desarrollo de una sociedad equitativa y sostenible;
 
     .row.mb-5
       .col-12.col-lg-7(data-aos="fade-right")
@@ -259,7 +259,7 @@
       .d-none.d-xl-block.col-4.px-0(data-aos="fade-left")
         img.h-100(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
 
-    ImagenInfografica.color-secundario.mb-4(data-aos="fade-up")
+    ImagenInfografica.color-secundario.mb-5(data-aos="fade-up")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
@@ -268,11 +268,11 @@
         .h5.mb-2 Acción de tutela
         p Permite solicitar protección inmediata de derechos fundamentales cuando son vulnerados y no existen otros medios judiciales efectivos. Es clave para proteger derechos como la salud y la educación.
       .tarjeta.bg-amarillo.p-4(x="41.2%" y="35.4%" numero="+")
-        .h5.mb-2 Acción de inconstitucionalidad
-        p Permite demandar leyes o decretos contrarios a la Constitución, garantizando su supremacía y asegurando que normas emitidas por el Congreso o el Ejecutivo no vulneren derechos fundamentales.
-      .tarjeta.bg-amarillo.p-4(x="13.8%" y="52.3%" numero="+")
         .h5.mb-2 Acción popular
         p Protege derechos colectivos, como el derecho a un ambiente sano y la seguridad pública, frente a amenazas que afectan a la comunidad en general, siendo clave en la protección de derechos ambientales.
+      .tarjeta.bg-amarillo.p-4(x="13.8%" y="52.3%" numero="+")
+        .h5.mb-2 Acción de inconstitucionalidad
+        p Permite demandar leyes o decretos contrarios a la Constitución, garantizando su supremacía y asegurando que normas emitidas por el Congreso o el Ejecutivo no vulneren derechos fundamentales.
       .tarjeta.bg-amarillo.p-4(x="67.3%" y="53.3%" numero="+")
         .h5.mb-2 Acción de cumplimiento
         p Permite exigir a las autoridades públicas que cumplan leyes o actos administrativos claros y exigibles. Es utilizada para garantizar que políticas y sentencias sean implementadas conforme a lo dispuesto.
@@ -280,7 +280,26 @@
         .h5.mb-2 Control constitucional
         p Función de la Corte Constitucional para revisar que leyes, decretos y actos estatales se ajusten a la Constitución, evitando acciones arbitrarias y preservando los derechos fundamentales. Un ejemplo es la despenalización del aborto en ciertos casos.
 
-
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/68946") Cardena C. (2018). Constitución política de Colombia (3a. ed.). Grupo Editorial Nueva Legislación SAS.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/77530") Sampay, A. (2011). Ciencia política y constitución. Editorial docencia.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1870-23332018000100043") González Madrid, M. (2018). El significado de la Constitución: Breve revisión del concepto. Polis, 14(1), 43-80.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/117688") Rudán, P. (2003). Por la senda de occidente: Republicanismo y Constitución. Editorial biblioteca Nueva.
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 
